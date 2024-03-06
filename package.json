@@ -9,10 +9,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~50.0.7",
+    "@cloudinary/react": "^1.13.0",
+    "@cloudinary/url-gen": "^1.16.1",
+    "cloudinary": "^2.0.1",
+    "cloudinary-react-native": "^0.2.0",
+    "expo": "~50.0.8",
+    "expo-camera": "~14.0.5",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.4"
+    "react-native": "0.73.4",
+    "expo-media-library": "~15.9.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
